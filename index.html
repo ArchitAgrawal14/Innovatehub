@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>InnovateHub</title>
+</head>
+<body>
+    <!-- Starting of Sidebar with dropdown menu -->
+    <div class="sidebar">
+        <div class="logo">
+            <i class='bx bxs-layout'></i>
+            <span class="logoName">InnovateHub</span>
+        </div>
+        <ul class="navLinks">
+            <li>
+                <a href="">
+                    <i class='bx bx-medal'></i>
+                    <span class="linkName">Design team</span>
+                </a>
+                <ul class="subMenu blank">
+                    <li><a href="" class="linkName">Design team</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">
+                    <i class='bx bx-volume-full'></i>
+                    <span class="linkName">Marketing team</span>
+                </a>
+                <ul class="subMenu blank">
+                    <li><a href="" class="linkName">Marketing team</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">
+                    <i class='bx bx-expand-horizontal'></i>
+                    <span class="linkName">Development team</span>
+                </a>
+                <ul class="subMenu blank">
+                    <li><a href="" class="linkName">Development team</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">
+                    <i class='bx bx-plus-circle' style="color: gray;"></i>
+                    <span class="linkName Create-team">Create Team</span>
+                </a>
+                <ul class="subMenu blank">
+                    <li><a href="" class="linkName Create-team">Create Team</a></li>
+                </ul>
+            </li>
+            <hr style="opacity: 0.4;">
+            <li>
+                <a href="">
+                    <input class="linkName Create-team" placeholder="Folder" style=" border-style: none; margin-left: 20px; padding-right: 0%;">
+                    <i class='bx bx-plus arrow' style="color: gray;"></i>
+                </input>
+                </a>
+                <ul class="subMenu blank">
+                    <li><a href="" class="linkName Create-team">Create Team</a></li>
+                </ul>
+            </li>
+            
+            <li>
+                <div class="icon_links">
+                    <a href="">
+                        <i class='bx bx-folder'></i>
+                        <span class="linkName">Products</span>
+                    </a>
+                    <i class="bx bxs-chevron-down arrow"></i>
+                </div>
+                <ul class="subMenu">
+                    <li><a href="" class="linkName">Products</a></li>
+                    <li><a href="">Roadmap</a></li>
+                    <li><a href="">Feedback</a></li>
+                    <li><a href="">Performance</a></li>
+                    <li><a href="">Team</a></li>
+                    <li><a href="">Analytics</a></li>
+                </ul>
+            </li>
+            
+            <li>
+                <div class="icon_links">
+                    <a href="">
+                        <i class='bx bx-folder'></i>
+                        <span class="linkName">Sales</span>
+                    </a>
+                    <i class="bx bxs-chevron-down arrow"></i>
+                </div>
+                <ul class="subMenu">
+                    <li><a href="" class="linkName">Sales</a></li>
+                    <li><a href="">Current</a></li>
+                    <li><a href="">Record</a></li>
+                </ul>
+            </li>
+            <li>
+                <div class="icon_links">
+                    <a href="">
+                        <i class='bx bx-folder'></i>
+                        <span class="linkName">Design</span>
+                    </a>
+                    <i class="bx bxs-chevron-down arrow"></i>
+                </div>
+                <ul class="subMenu">
+                    <li><a href="" class="linkName">Toolbar</a></li>
+                    <li><a href="">Templates</a></li>
+                    <li><a href="">Charts</a></li>
+                </ul>
+            </li>
+            <hr style="opacity:0.4;">
+            <li>
+                <a href="">
+                    <i class='bx bx-user-voice'></i>
+                    <span class="linkName">Invite teamates</span>
+                </a>
+                <ul class="subMenu blank">
+                    <li><a href="" class="linkName">Development team</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">
+                    <i class='bx bx-question-mark'></i>
+                    <span class="linkName">Help and first steps</span>
+                </a>
+                <ul class="subMenu blank">
+                    <li><a href="" class="linkName">Help and first steps</a></li>
+                </ul>
+            </li>
+            
+</div>
+</ul>
+<!-- Three line(box -menu) to toggle the sidebar -->
+<section class="Home-section">
+    <div class="home-content">
+        <i class="bx bx-menu"></i>
+        <span class="text"></span>
+    </div>
+    <!-- For table -->
+    <main class="table" id="products_table">
+        <section class="table__header">
+            <h1>Products</h1>
+            <div class="input-group">
+                <input type="search" placeholder="Search Data...">
+                <img src="images/search icon.jpg" alt="searchIcon">
+            </div>
+            <div><button onmouseover="this.style.color='black'"  onmouseout="this.style.color='grey'" style="padding: 10px; color: gray; cursor: pointer; border-radius: 8px; border-style: none; "><i class='bx bx-plus-circle' style="color: gray;"></i>Meeting</button></div>
+            <div><button onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'" style="padding: 10px; color: gray; cursor: pointer; border-radius: 8px; border-style: none;"><i class='bx bx-folder' style="color: gray;"></i>Import/Export</button></div>
+        </section>
+        <section class="table__body">
+            <table>
+                <thead>
+                    <tr>
+                        <th> Brands <span class="icon-arrow">&UpArrow;</span></th>
+                        <th> Description <span class="icon-arrow">&UpArrow;</span></th>
+                        <th> Categories <span class="icon-arrow">&UpArrow;</span></th>
+                        <th> Tags <span class="icon-arrow">&UpArrow;</span></th>
+                        <th> Next Meeting <span class="icon-arrow">&UpArrow;</span></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        
+                        <td> <img src="images/wix logo.png" alt="">Wix</td>
+                        <td> Develop a personized fit. </td>
+                        <td>
+                            <p class="status Marketplace">Marketplace</p>
+                        </td>
+                        <td class="status tags_text"> #Digital information</td>
+                        <td> <strong class="status Tommorow">Tommorow </strong></td>
+                    </tr>
+                    <tr>
+                        
+                        <td><img src="images/shopify logo.png" alt=""> Shopify </td>
+                        <td> Introduce a cloud-based platform </td>
+                        <td>
+                            <p class="status Automation">Automation</p>
+                        </td>
+                        <td class="status tags_text">#OnlineShopping</td>
+                        <td> <strong class="status Finished">No contact</strong> </td>
+                    </tr>
+                    <tr>
+                        
+                        <td><img src="images/mail chimplogo.png" alt=""> Mail chimp </td>
+                        <td> Develop a mobile app.</td>
+                        <td>
+                            <p class="status Marketplace">Saas</p>
+                        </td>
+                        <td class="status tags_text">#TechInnoation</td>
+                        <td> <strong class="status today">In 30mins</strong> </td>
+                    </tr>
+                    <tr>
+                        
+                        <td><img src="images/paypal logo.png" alt=""> PayPal </td>
+                        <td>This program could include </td>
+                        <td>
+                            <p class="status Marketplace">Marketplace</p>
+                        </td>
+                        <td class="status tags_text"> #BuySellOnline </td>
+                        <td> <strong class="status Finished">No contact</strong> </td>
+                    </tr>
+                    <tr>
+                        
+                        <td><img src="images/disney logo.png" alt="">Disney</td>
+                        <td> Introduce a B2B solution </td>
+                        <td>
+                            <p class="status B2B">B2B</p>
+                        </td>
+                        <td class="status tags_text">#BuissnessPartnership</td>
+                        <td> <strong class="status Tommorow">Tommorow</strong> </td>
+                    </tr>
+                    <tr>
+                        
+                        <td><img src="images/intercom logo.png" alt="">Intercom</td>
+                        <td> Implement a AI-driven..</td>
+                        <td>
+                            <p class="status Automation">Saas</p>
+                        </td>
+                        <td class="status tags_text"> #SaasPlatform </td>
+                        <td> <strong class="status today">in 2hrs</strong> </td>
+                    </tr>
+                    <tr>
+                        
+                        <td><img src="images/google logo.png" alt="">Google</td>
+                        <td>Offer a comprehensive cyber..</td>
+                        <td>
+                            <p class="status Automation">Automation</p>
+                        </td>
+                        <td class="status tags_text"> #SmartFinance </td>
+                        <td> <strong class="status Finished">No contact</strong> </td>
+                    </tr>
+                    <tr>
+                        
+                        <td><img src="images/ever note logo.png" alt="">Evernote</td>
+                        <td> This could include smart..</td>
+                        <td>
+                            <p class="status B2B">B2B</p>
+                        </td>
+                        <td class="status tags_text"> #LogisticTech</td>
+                        <td> <strong class="status Tommorow">Tommorow</strong> </td>
+                    </tr>
+                    <tr>
+            
+                        <td><img src="images/microsoft logo.png" alt="">Microsoft</td>
+                        <td> Launch an advisory service </td>
+                        <td>
+                            <p class="status Automation">Automation</p>
+                        </td>
+                        <td class="status tags_text"> #D2CMarketing </td>
+                        <td> <strong class="status Tommorow">Tommorow</strong> </td>
+                    </tr>
+                    <tr>
+                        
+                        <td><img src="images/invision.png" alt="">Inivision</td>
+                        <td> The tool would analyse t.. </td>
+                        <td>
+                            <p class="status Automation">Automation</p>
+                        </td>
+                        <td class="status tags_text">#ApiIntegration</td>
+                        <td> <strong class="status today">Within 40mins</strong> </td>
+                    </tr>
+                    <tr>
+                        
+                        <td><img src="images/google logo.png" alt=""> Google </td>
+                        <td> AI services </td>
+                        <td>
+                            <p class="status Automation">Automation</p>
+                        </td>
+                        <td class="status tags_text"> #Automation </td>
+                        <td> <strong class="status Finished">No contact</strong> </td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/microsoft logo.png" alt="">Microsoft </td>
+                        <td> Api integration tool </td>
+                        <td>
+                            <p class="status Automation">Automation</p>
+                        </td>
+                        <td class="status tags_text">#ApiIntegration </td>
+                        <td> <strong class="status today">in 5hrs</strong> </td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/mail chimplogo.png" alt=""> Mail chimp </td>
+                        <td> Introduce a B2b solution </td>
+                        <td>
+                            <p class="status Automation">Automation</p>
+                        </td>
+                        <td class="status tags_text"> #Saas </td>
+                        <td> <strong class="status Finished">No contact</strong> </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+</section>
+    <script src="index.js"></script>
+</body>
+</html>
